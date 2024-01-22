@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "cd07ecd0-afd1-4c3f-9729-f751574348ea",
+		"name": "match finder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32341138"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"Arpit\",\n    \"email\" : \"arpit@gmail.com\",\n    \"password\" : \"1234\",\n    \"gender\":\"male\"\n  \"hobbies\" : \"singing\",\n  \"location\" : \"karnal\",\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"Arpit\",\n    \"email\" : \"arpit@gmail.com\",\n    \"password\" : \"1234\",\n    \"gender\":\"male\"\n  \"hobbies\" : \"singing\",\n  \"location\" : \"karnal\",\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+		
+		
+	]
+}
